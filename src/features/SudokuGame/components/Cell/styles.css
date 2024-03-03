@@ -1,6 +1,12 @@
 .cell {
-    width: 40px;
-    height: 40px;
+    height: 60px;
     border:1px solid black;
-    font-size: 16px;
+    font-size: 48px;
+    line-height: 55px;
+}
+.cell_highlighted{
+    background: lightgrey;
+}
+.cell_selected{
+    background: lightblue;
 }

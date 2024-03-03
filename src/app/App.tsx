@@ -3,6 +3,7 @@ import { Provider } from "react-redux";
 import "./App.css";
 import { store } from "./store";
 import { Board } from "../features/SudokuGame/components/Board";
+import { NumberSelector } from "../features/SudokuGame/components/NumberSelector";
 
 function App() {
   return (
@@ -10,6 +11,8 @@ function App() {
       <div className="App">
         <header>Ultimate Sudoku</header>
         <Board />
+        <br />
+        <NumberSelector />
       </div>
     </Provider>
   );

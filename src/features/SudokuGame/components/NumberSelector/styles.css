@@ -1,0 +1,15 @@
+.NumberSelector {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.NumberSelector__item{
+    border:1px solid grey;
+    padding: 10px 15px;
+    background: white;
+    cursor: pointer;
+    margin: 0 3px;
+}
+.numbersListItem_active{
+    background: red;
+}
